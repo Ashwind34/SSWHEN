@@ -6,6 +6,7 @@ import { SsUsersProvider } from '../../providers/ss-users/ss-users';
 import { SSUser } from '../../models/SSUser';
 import { Storage } from '@ionic/storage';
 import { UserDataProvider } from "../../providers/user-data/user-data";
+import { AlertMessageComponent } from '../../components/alert-message/alert-message';
 
 @IonicPage()
 @Component({

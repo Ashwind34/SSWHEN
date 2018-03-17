@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { AlertController } from 'ionic-angular';
 
 /**
@@ -13,12 +13,10 @@ import { AlertController } from 'ionic-angular';
 })
 export class AlertMessageComponent {
   
-  text: string;
-  messageType: string = 'benefit';
+  @Input() messageType: string;
 
   constructor(public alertCtrl: AlertController) {
     console.log('Hello AlertMessageComponent Component');
-    this.text = "hello world"
   }
   
   benefitInfoAlert(){

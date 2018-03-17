@@ -57,8 +57,9 @@
             </ion-row>
             <ion-row align-items-start>
               <ion-col *ngIf="!editable">
-                <alert-message></alert-message>
-                <div #changeText><strong>FRA Benefit Amount:</strong></div>
+                <div #changeText><strong>FRA Benefit Amount:</strong>
+                  <alert-message messageType="benefit"></alert-message>
+                </div>
                 <div #changeText>{{benefitAtFRA}}</div>
               </ion-col>
               <ion-col *ngIf="editable">
@@ -66,7 +67,9 @@
                 <ion-input #changeText type="text" placeholder="{{benefitAtFRA}}"></ion-input>
               </ion-col>
               <ion-col *ngIf="!editable">
-                <div #changeText><strong>Total Tax Contribution:</strong></div>
+                <div #changeText><strong>Total Tax Contribution:</strong>
+                  <alert-message messageType="tax"></alert-message>
+                </div>
                 <div #changeText>{{totalContribution}}</div>
               </ion-col>
               <ion-col *ngIf="editable">

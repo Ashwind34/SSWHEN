@@ -5,6 +5,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { NumberValidator } from '../../validators/number';
 import { CalculationsProvider } from "../../providers/calculations/calculations";
 import { UserDataProvider } from "../../providers/user-data/user-data";
+import { AlertMessageComponent } from '../../components/alert-message/alert-message';
 
 @IonicPage()
 
