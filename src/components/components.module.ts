@@ -3,15 +3,18 @@ import { ChartComponent } from './charts/charts';
 import { LangaugePopoverComponent } from './langauge-popover/langauge-popover';
 import { ModalHistoryComponent } from './modal-history/modal-history';
 import { ModalDashboardComponent } from './modal-dashboard/modal-dashboard';
+import { AlertMessageComponent } from './alert-message/alert-message';
 @NgModule({
 	declarations: [ChartComponent,
     LangaugePopoverComponent,
     ModalHistoryComponent,
-    ModalDashboardComponent],
+    ModalDashboardComponent,
+    AlertMessageComponent],
 	imports: [],
 	exports: [ChartComponent,
     LangaugePopoverComponent,
     ModalHistoryComponent,
-    ModalDashboardComponent]
+    ModalDashboardComponent,
+    AlertMessageComponent]
 })
 export class ComponentsModule {}

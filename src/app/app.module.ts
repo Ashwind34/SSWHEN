@@ -34,6 +34,7 @@ import { EmailProvider } from '../providers/email/email';
 // import { AppConfig } from '../providers/app-config';
 import { SsUsersProvider } from '../providers/ss-users/ss-users';
 import { ResultsProvider } from '../providers/results/results';
+import { AlertMessageComponent } from '../components/alert-message/alert-message';
 
 
 @NgModule({
@@ -56,7 +57,8 @@ import { ResultsProvider } from '../providers/results/results';
     ChartComponent,
     LangaugePopoverComponent,
     ModalDashboardComponent,
-    ModalHistoryComponent
+    ModalHistoryComponent,
+    AlertMessageComponent
   ],
   imports: [
     BrowserModule,
@@ -86,7 +88,8 @@ import { ResultsProvider } from '../providers/results/results';
     ChartComponent,
     LangaugePopoverComponent,
     ModalDashboardComponent,
-    ModalHistoryComponent
+    ModalHistoryComponent,
+    AlertMessageComponent
   ],
   providers: [
     StatusBar,

@@ -11,6 +11,7 @@ import { ResultsProvider } from '../../providers/results/results';
 import { Storage } from '@ionic/storage';
 import { UserDataProvider } from '../../providers/user-data/user-data';
 import { Results } from '../../models/Results';
+import { AlertMessageComponent } from '../../components/alert-message/alert-message';
 
 @IonicPage()
 

@@ -57,6 +57,7 @@
             </ion-row>
             <ion-row align-items-start>
               <ion-col *ngIf="!editable">
+                <alert-message></alert-message>
                 <div #changeText><strong>FRA Benefit Amount:</strong></div>
                 <div #changeText>{{benefitAtFRA}}</div>
               </ion-col>
